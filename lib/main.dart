@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 void main() {
   runApp(
@@ -31,8 +32,12 @@ class _RandomImageState extends State<RandomImage> {
         children: [
           Expanded(
             child: FlatButton(
-              onPressed: () {},
-              child: child,
+              onPressed: () {
+                setState(() {
+                  Ball = Random().
+                });
+              },
+              child: Image.asset('images/ball$Ball.png'),
             ),
           ),
         ],
