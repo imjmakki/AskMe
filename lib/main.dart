@@ -23,11 +23,19 @@ class RandomImage extends StatefulWidget {
 }
 
 class _RandomImageState extends State<RandomImage> {
+  int Ball = 1;
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Row(
-        children: [],
+        children: [
+          Expanded(
+            child: FlatButton(
+              onPressed: () {},
+              child: child,
+            ),
+          ),
+        ],
       ),
     );
   }
