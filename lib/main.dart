@@ -34,7 +34,7 @@ class _RandomImageState extends State<RandomImage> {
             child: FlatButton(
               onPressed: () {
                 setState(() {
-                  Ball = Random().
+                  Ball = Random().nextInt(5) + 1;
                 });
               },
               child: Image.asset('images/ball$Ball.png'),
