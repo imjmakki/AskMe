@@ -26,7 +26,9 @@ class _RandomImageState extends State<RandomImage> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Row(),
+      child: Row(
+        children: [],
+      ),
     );
   }
 }
