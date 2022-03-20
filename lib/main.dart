@@ -25,6 +25,8 @@ class RandomImage extends StatefulWidget {
 class _RandomImageState extends State<RandomImage> {
   @override
   Widget build(BuildContext context) {
-    return Center();
+    return Center(
+      child: Row(),
+    );
   }
 }
